@@ -1,13 +1,13 @@
-package Exercicios_aula15_CondicionaisIfElse;
+package condicionais;
 
 import java.util.Scanner;
 
-public class exercício5 {
+public class Exercise5 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Média simples entre duas notas");
+		System.out.println("Mï¿½dia simples entre duas notas");
 		System.out.println("Digite a primeira nota: ");
 		double nota1 = scan.nextDouble();
 		System.out.println("Digite a segunda nota: ");
@@ -17,11 +17,11 @@ public class exercício5 {
 
 		
 		 if (media == 10) {
-			System.out.println("Aluno aprovado com disitinção: " + media);
+			System.out.println("Aluno aprovado com disitinï¿½ï¿½o: " + media);
 		 }else if (media >= 7) {
-				System.out.println("Aluno aprovado com média: " + media);
+				System.out.println("Aluno aprovado com mï¿½dia: " + media);
 		}else {
-			System.out.println("Aluno reprovado com média: "+ media);
+			System.out.println("Aluno reprovado com mï¿½dia: "+ media);
 		}
 
 	}

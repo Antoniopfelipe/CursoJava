@@ -1,8 +1,8 @@
-package Exercicios_aula15_CondicionaisIfElse;
+package condicionais;
 
 import java.util.Scanner;
 
-public class exercicio3 {
+public class Exercise3 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
@@ -14,7 +14,7 @@ public class exercicio3 {
 	    }else if(abc.equalsIgnoreCase("M")) {
 	    	System.out.println("M - Masculino");
 	    }else {
-	    		System.out.println("try again,sexo inválido");
+	    		System.out.println("try again,sexo invï¿½lido");
 	    	}
 	    	
 	    }

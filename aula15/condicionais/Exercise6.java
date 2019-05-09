@@ -1,28 +1,28 @@
-package Exercicios_aula15_CondicionaisIfElse;
+package condicionais;
 
 import java.util.Scanner;
 
-public class exercício6 {
+public class Exercise6 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("O maior de todos!!!!");
 		System.out.println("-------------------------");
-		System.out.println("Digite três números");
-		System.out.println("Primeiro número: ");
+		System.out.println("Digite trï¿½s nï¿½meros");
+		System.out.println("Primeiro nï¿½mero: ");
 		int num1 = scan.nextInt();
-		System.out.println("Segundo número: ");
+		System.out.println("Segundo nï¿½mero: ");
 		int num2 = scan.nextInt();
-		System.out.println("Terceiro número: ");
+		System.out.println("Terceiro nï¿½mero: ");
 		int num3 = scan.nextInt();
 
 		if (num1 > num2 && num1 > num3) {
-			System.out.println("O número " + num1 + " é o maior");
+			System.out.println("O nï¿½mero " + num1 + " ï¿½ o maior");
 		} else if (num2 > num1 && num2 > num3) {
-			System.out.println("O número " + num2 + " é o maior");
+			System.out.println("O nï¿½mero " + num2 + " ï¿½ o maior");
 		} else if (num3 > num1 && num3 > num1) {
-			System.out.println("O número " + num3 + " é o maior");
+			System.out.println("O nï¿½mero " + num3 + " ï¿½ o maior");
 		} // else if (num3 == num2 == num1) {
 
 	}

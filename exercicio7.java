@@ -1,10 +1,8 @@
-package Exercicios_aula15_CondicionaisIfElse;
-
+package CondicionaisIfElse;
 import java.util.Scanner;
 
-public class exercício6 {
+public class exercicio7 {
 	public static void main(String[] args) {
-
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("O maior de todos!!!!");
@@ -17,14 +15,21 @@ public class exercício6 {
 		System.out.println("Terceiro número: ");
 		int num3 = scan.nextInt();
 
-		if (num1 > num2 && num1 > num3) {
+		if (num1 >= num2 && num1 >= num3) {
 			System.out.println("O número " + num1 + " é o maior");
-		} else if (num2 > num1 && num2 > num3) {
+		} else if (num2 >= num1 && num2 >= num3) {
 			System.out.println("O número " + num2 + " é o maior");
-		} else if (num3 > num1 && num3 > num1) {
+		} else if (num3 >= num1 && num3 >= num1) {
 			System.out.println("O número " + num3 + " é o maior");
-		} // else if (num3 == num2 == num1) {
-
+		}	
+	     if (num1 <= num2 && num1 <= num3) {
+	    	System.out.println("O número " + num1 + " é o menor");
+	    }else if (num2 <= num1 && num2 <= num3) {
+	    	System.out.println("O número " + num2 + " é o menor");
+	    }else if (num3 <= num1 && num3 <= num1) {
+	    	System.out.println("O número " + num3 + " é o menor");
 	}
 
+		
+}
 }
